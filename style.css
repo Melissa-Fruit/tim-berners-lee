@@ -6,15 +6,15 @@
 .strong {
   font-weight: bold;
 }
+.title{
+  display: block;
+  color: slategray;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
 
-/*
-.flotte {
-  float: left;
-}
-.block {
-  display: inline-block;
-}
-*/
 body {
   font-family: "Open Sans", sans-serif;
   background-color:	#DCDCDC;
@@ -52,12 +52,17 @@ nav{
     background-color: white;
    margin: 50px 25% 50px 25%;
    padding: 100px;
+   display: flex;
+   
 }
 ul, li {
     list-style-type: none;
     display: inline-block;
     margin: auto;
     text-align: center;
+    margin-left: auto;
+   margin-right: auto;
+   width: ...;
    
   
    }
@@ -81,8 +86,20 @@ section{
 }
 h1{
     color: red;
+    font-family: "Open-sans";
+    font-size: 50px;
 }
 
-h2, h3, p {
+h2, h3, p, td {
     color: slategrey;
+    font-family: "Open-sans";
+    line-height: 30px;
+}
+
+p, td {
+  font-size: 20px;
+}
+td{
+  text-align: left;
+padding: 20px;
 }
